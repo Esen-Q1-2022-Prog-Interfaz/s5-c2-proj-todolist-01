@@ -3,6 +3,5 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-
 def home():
-    pass
+    return "<h1>Hola esen</h1>"
